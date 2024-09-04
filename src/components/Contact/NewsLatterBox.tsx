@@ -8,11 +8,10 @@ const NewsLatterBox = () => {
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
       <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe to receive future updates
+        Subscribe to receive latest jobs and opportunities in Nigeria
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+        Don&apos;t miss out on the abundance of opportunities in Nigeria. Subscribe!
       </p>
       <div>
         <input
@@ -30,7 +29,8 @@ const NewsLatterBox = () => {
         <input
           type="submit"
           value="Subscribe"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-green-600 px-9 py-4 
+          text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         />
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
           No spam guaranteed, So please don’t send any spam mail.

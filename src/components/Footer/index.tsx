@@ -12,23 +12,22 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/petrolage_logo.png"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="w-12 dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/petrolage_logo.png"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="hidden w-12 dark:block"
                     width={140}
                     height={30}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  We power the best projects in Nigeria.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -215,24 +214,16 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              Designed by{" "}
               <a
-                href="http://uideck.com"
+                href="https://myafros.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                Myafros
               </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
+             
             </p>
           </div>
         </div>

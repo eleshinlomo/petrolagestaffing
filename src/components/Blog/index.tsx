@@ -6,12 +6,12 @@ const Blog = () => {
   return (
     <section
       id="blog"
-      className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28"
+      className="bg-gray-light dark:bg-bg-color-dark py-2 md:py-2 lg:py-2"
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Latest Jobs"
+          paragraph="New jobs added by clients every day. Explore your next opportunity in Nigeria."
           center
         />
 

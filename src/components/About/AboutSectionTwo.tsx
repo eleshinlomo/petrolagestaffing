@@ -28,29 +28,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Healthcare Recruitment
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Petrolage has been delivering exceptional recruitment services to the Nigerian healthcare sector
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Oil & Gas
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  We have been supporting the Nigerian Oil and Gas sector since 2016. We have suported projects in the upstream both onshore and offshore.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  IT
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  We currently power some of the biggest SaaS and Cybersecurity projects in Nigeria.
                 </p>
               </div>
             </div>

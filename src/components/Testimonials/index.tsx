@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Adetoun Waters",
+    designation: "Nurse",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Petrolage played a crucial role in securing my current position. Their recruiters demonstrated unparalleled professionalism throughout the process.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Emilia Tokunbo",
+    designation: "Software Engineer",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I found my current job on the petrolage's website. I recommend this platform to anyone looking for opportunities in the Nigerian tech. Big thanks to the team.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Shane Okoro",
+    designation: "Petroleum Engineer",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "After finishing my masters in Petroleum Engineering, I started applying for jobs on this platform. Today I work with a company I love. Grateful to the Petrolage team.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
