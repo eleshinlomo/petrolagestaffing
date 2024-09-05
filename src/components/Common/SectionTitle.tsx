@@ -1,16 +1,18 @@
+interface SectionProps {
+  title: string;
+  paragraph: string;
+  width?: string;
+  center?: boolean;
+  mb?: string;
+}
+
 const SectionTitle = ({
   title,
   paragraph,
   width = "570px",
   center,
   mb = "100px",
-}: {
-  title: string;
-  paragraph: string;
-  width?: string;
-  center?: boolean;
-  mb?: string;
-}) => {
+}: SectionProps) => {
   return (
     <>
       <div
