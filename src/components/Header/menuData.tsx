@@ -21,24 +21,24 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "jobs",
-    path: "/blog",
+    title: "Jobs",
+    path: "/jobs",
     newTab: false,
   },
   {
     id: 4,
-    title: "Pages",
+    title: "Quick links",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
+        title: "About us",
         path: "/about",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
+        title: "Contact us",
         path: "/contact",
         newTab: false,
       },

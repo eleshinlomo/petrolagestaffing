@@ -117,7 +117,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
+                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       Blog
                     </Link>
@@ -125,7 +126,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       Pricing
                     </Link>
@@ -133,7 +135,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
+                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       About
                     </Link>
@@ -151,7 +154,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       TOS
                     </Link>
@@ -159,7 +163,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       Privacy Policy
                     </Link>
@@ -167,7 +172,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       Refund Policy
                     </Link>
@@ -185,15 +191,17 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
-                      Open Support Ticket
+                      Contact
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       Terms of Use
                     </Link>
@@ -201,7 +209,8 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
+                      dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       About
                     </Link>

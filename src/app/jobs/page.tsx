@@ -1,32 +1,43 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import SingleBlog from "@/components/Job/SingleJob";
+import jobData from "@/components/Job/jobData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import SingleJob, { JobProps } from "@/components/Job/SingleJob";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "Job Page | Petrolage",
+  description: "This is job page for petrolage",
   // other metadata
 };
 
-const Blog = () => {
+const Job = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Jobs"
+        description="Check our latest jobs and see if you can find a professional match."
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[60px] pt-[30px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
+            {jobData.map((job: JobProps ) => (
               <div
-                key={blog.id}
+                key={job.id}
                 className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
-                <SingleBlog blog={blog} />
+                
+                    <SingleJob
+                    id={job.id}
+                    title = {job.title}
+                     image={job.image}
+                     paragraph={job.paragraph}
+                     author={job.author}
+                     tags={job.tags}
+                     publishDate={job.publishDate}
+                    />
+                
               </div>
             ))}
           </div>
@@ -96,4 +107,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Job;

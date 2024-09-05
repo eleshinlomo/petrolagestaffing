@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-green-700 dark:text-green-400 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Nigeria&apos;s best staffing firm.
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
@@ -27,7 +27,7 @@ const Hero = () => {
                     🔥 POST JOBS
                   </Link>
                   <Link
-                    href="/"
+                    href="/jobs"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 
                     ease-in-out hover:bg-black/90
                      dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
