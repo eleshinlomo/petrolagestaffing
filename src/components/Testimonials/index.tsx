@@ -1,8 +1,17 @@
-import { Testimonial } from "@/types/testimonial";
+
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
-const testimonialData: Testimonial[] = [
+interface TestimonialProps {
+    id: number;
+    name: string;
+    designation: string;
+    content: string;
+    image: string;
+    star: number;
+}
+
+const testimonialData: TestimonialProps[] = [
   {
     id: 1,
     name: "Adetoun Waters",
@@ -38,7 +47,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="Testimonials"
-          paragraph="We don&apos;t blow our own trumpet. Here from our users."
+          paragraph="We don&apos;t blow our own trumpet. Hear from our users."
           center
         />
 
