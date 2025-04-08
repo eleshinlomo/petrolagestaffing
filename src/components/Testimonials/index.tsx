@@ -23,7 +23,7 @@ const testimonialData: TestimonialProps[] = [
   },
   {
     id: 2,
-    name: "Emilia Tokunbo",
+    name: "Phillips Ned",
     designation: "Software Engineer",
     content:
       "I found my current job on the petrolage's website. I recommend this platform to anyone looking for opportunities in the Nigerian tech. Big thanks to the team.",
@@ -32,7 +32,7 @@ const testimonialData: TestimonialProps[] = [
   },
   {
     id: 3,
-    name: "Shane Okoro",
+    name: "Shane Bulls",
     designation: "Petroleum Engineer",
     content:
       "After finishing my masters in Petroleum Engineering, I started applying for jobs on this platform. Today I work with a company I love. Grateful to the Petrolage team.",

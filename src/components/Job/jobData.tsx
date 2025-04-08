@@ -8,7 +8,7 @@ const jobData: JobProps[] = [
       "Explore exciting IT job opportunities in Nigeria.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Omoniyi Dokun",
+      name: "Shawn Polis",
       image: "/images/blog/author-01.png",
       designation: "IT Recruiter",
     },
@@ -22,7 +22,7 @@ const jobData: JobProps[] = [
       "Expolore exciting opportunities in the Nigerian Healthcare sector.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Fleix Omokodion",
+      name: "Adetoun Waters",
       image: "/images/blog/author-02.png",
       designation: "Healthcare Recruiter",
     },
@@ -36,7 +36,7 @@ const jobData: JobProps[] = [
       "Explore exciting opportunities in the Nigerian Oil and Gas sector.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Anu Banwo",
+      name: "Shane Bulls",
       image: "/images/blog/author-03.png",
       designation: "Oil & Gas Recruiter",
     },

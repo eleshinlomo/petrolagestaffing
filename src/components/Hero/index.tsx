@@ -1,6 +1,16 @@
+'use client'
+
 import Link from "next/link";
+import { useState } from "react";
 
 const Hero = () => {
+
+  const [message, setMessage] = useState('Explore opportunites in Nigeria')
+
+  const handleMessage = ()=>{
+    setMessage('This feature is underway. Please check back')
+  }
+
   return (
     <>
       <section
@@ -15,24 +25,27 @@ const Hero = () => {
                   Nigeria&apos;s best staffing firm.
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Established in 2016, we have successfully placed over 10,000 workers across leading sectors in Nigeria. 
+                Established in 2015, we have successfully placed over 10,000 workers across leading sectors in Nigeria. 
                 We serve as a vital partner to both public and private sectors throughout the country. 
                 </p>
+                {/* Message */}
+                <div className="mb-4"> <p>{message}</p></div>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/"
+                 
+                  <button
                     className="rounded-sm bg-green-600 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out
                      hover:bg-green-700"
+                     onClick={handleMessage}
                   >
-                    🔥 POST JOBS
-                  </Link>
+                    🔥POST JOBS 
+                  </button>
                   <Link
                     href="/jobs"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 
                     ease-in-out hover:bg-black/90
                      dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    FIND JOBS
+                    <button> FIND JOBS </button>
                   </Link>
                 </div>
               </div>

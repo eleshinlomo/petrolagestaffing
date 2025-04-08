@@ -13,7 +13,7 @@ const Job = () => {
       <div className="container">
         <SectionTitle
           title="Latest Jobs"
-          paragraph="New jobs added by clients every day. Explore your next opportunity in Nigeria."
+          paragraph="New jobs added every day. Explore your next opportunity in Nigeria."
           center
         />
 

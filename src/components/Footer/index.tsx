@@ -2,7 +2,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 const Footer = () => {
+
+  const date = new Date()
+  const year = date.getFullYear()
+
   return (
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
@@ -223,14 +229,14 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Designed by{" "}
+              Copyright &copy; {year}{" "}
               <a
                 href="https://myafros.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Myafros
+                Petrolage Limited RC 1275201
               </a>{" "}
              
             </p>
