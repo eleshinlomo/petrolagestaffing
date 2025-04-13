@@ -1,17 +1,18 @@
-import SectionTitle from "../Common/SectionTitle";
-import SingleBlog from "./SingleBlog";
-import blogData from "./blogData";
+import blogData from "@/components/Blog/blogData";
+import SingleBlog from "@/components/Blog/SingleBlog";
+import SectionTitle from "@/components/Common/SectionTitle";
 
-const Blog = () => {
+const BlogPage = () => {
+
   return (
     <section
       id="blog"
-      className="bg-gray-light dark:bg-bg-color-dark py-2 md:py-2 lg:py-2"
+      className="bg-gray-light dark:bg-bg-color-dark py-24 md:py-24 lg:py-24"
     >
       <div className="container">
         <SectionTitle
-          title="Latest Jobs"
-          paragraph="New jobs added by clients every day. Explore your next opportunity in Nigeria."
+          title="Latest Blogs"
+          paragraph="Read about what we are working on."
           center
         />
 
@@ -27,4 +28,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogPage;

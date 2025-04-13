@@ -18,14 +18,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/petrolage_logo.png"
+                    src="/images/logos/petrolage_logo.png"
                     alt="logo"
                     className="w-12 dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/petrolage_logo.png"
+                    src="/images/logos/petrolage_logo.png"
                     alt="logo"
                     className="hidden w-12 dark:block"
                     width={140}
@@ -122,7 +122,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/blogpage"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
                        dark:text-body-color-dark dark:hover:text-green-500"
                     >
@@ -159,16 +159,16 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/termspage"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
-                      TOS
+                      Terms of Service
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacypage"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
@@ -177,11 +177,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/cookiepage"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
-                      Refund Policy
+                      Cookie Policy
                     </Link>
                   </li>
                 </ul>
@@ -205,20 +205,20 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
-                      dark:text-body-color-dark dark:hover:text-green-500"
-                    >
-                      Terms of Use
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
                       dark:text-body-color-dark dark:hover:text-green-500"
                     >
                       About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500 
+                      dark:text-body-color-dark dark:hover:text-green-500"
+                    >
+                      support@petrolagegroup.com
                     </Link>
                   </li>
                 </ul>
@@ -231,12 +231,12 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               Copyright &copy; {year}{" "}
               <a
-                href="https://myafros.com"
+                href="https://petrolage.tech"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary"
+                className=""
               >
-                Petrolage Limited RC 1275201
+                <span className="text-blue-500 hover:text-blue-700">Petrolage</span> RC 1275201
               </a>{" "}
              
             </p>

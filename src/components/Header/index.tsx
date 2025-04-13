@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/petrolage_logo.png"
+                  src="/images/logos/petrolage_logo.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-12 dark:hidden"
                 />
                 <Image
-                  src="/images/logo/petrolage_logo.png"
+                  src="/images/logos/petrolage_logo.png"
                   alt="logo"
                   width={140}
                   height={30}
