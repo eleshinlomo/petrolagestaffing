@@ -140,11 +140,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/jobpage"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-green-500
                        dark:text-body-color-dark dark:hover:text-green-500"
                     >
-                      About
+                      Jobs
                     </Link>
                   </li>
                 </ul>

@@ -1,4 +1,4 @@
-import seplatLogo from '../../../public/images/logos/seplat_logo.jpeg'
+
 
 interface BrandProps {
   id: number;

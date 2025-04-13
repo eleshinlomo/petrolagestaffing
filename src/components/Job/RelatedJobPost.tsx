@@ -10,7 +10,7 @@ interface RelatedPostProps {
 
 }
 
-const RelatedPost = ({image, slug, title, date}: RelatedPostProps) => {
+const RelatedJobPost = ({image, slug, title, date}: RelatedPostProps) => {
   return (
     <div className="flex items-center lg:block xl:flex">
       <div className="mr-5 lg:mb-3 xl:mb-0">
@@ -33,4 +33,4 @@ const RelatedPost = ({image, slug, title, date}: RelatedPostProps) => {
   );
 };
 
-export default RelatedPost;
+export default RelatedJobPost;
