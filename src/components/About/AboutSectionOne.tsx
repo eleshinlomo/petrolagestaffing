@@ -29,7 +29,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="We power the job market in Nigeria."
-                paragraph="We started in Lagos in 2016 focusing mainly on oil and gas recruitment. By 2019, we expanded our reach to other sectors. Now we support over 15 industries in Nigeria."
+                paragraph="We started in Lagos in 2015 focusing mainly on oil and gas recruitment. By 2019, we expanded our reach to other sectors. Now we support over 15 industries in Nigeria."
                 mb="44px"
               />
 

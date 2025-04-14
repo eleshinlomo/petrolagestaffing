@@ -43,7 +43,7 @@ export const JobData: JobProps[] = [
     id: 2,
     title: "Nursing Assistant",
     paragraph:
-      "coming soon",
+      "coming soon.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Felix Omokodion",
@@ -57,7 +57,7 @@ export const JobData: JobProps[] = [
     id: 3,
     title: "Petroleum Engineer",
     paragraph:
-      "coming soon",
+      "coming soon.",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Anu Banwo",

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Alert from "../alert";
 
 const Hero = () => {
 
@@ -16,11 +17,15 @@ const Hero = () => {
       <section
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-      >
+      > 
+        
         <div className="container">
+        
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
+              <p className="text-red-300 text-wrap border border-red-500"> Beginning August 1st, 2025, our staffing process will transition entirely online. Candidates and clients can effortlessly manage every step of the process through their personalized dashboards. 
+                Please note that certain features on this website will be temporarily unavailable until the update is complete in August. </p>
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-green-700 dark:text-green-400 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Nigeria&apos;s best staffing firm.
                 </h1>
@@ -40,7 +45,7 @@ const Hero = () => {
                     🔥POST JOBS 
                   </button>
                   <Link
-                    href="/jobs"
+                    href="/jobpage"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 
                     ease-in-out hover:bg-black/90
                      dark:bg-white/10 dark:text-white dark:hover:bg-white/5"

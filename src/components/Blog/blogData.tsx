@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "Explore jobs in IT",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "We are transitioning entire staffing process online starting August 1st, 2025",
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Omoniyi Dokun",
@@ -19,7 +19,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "Explore jobs in Healthcare",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "We are transitioning entire staffing process online starting August 1st, 2025",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Fleix Omokodion",
@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "Explore jobs in Oil & Gas",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "We are transitioning entire staffing process online starting August 1st, 2025",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Anu Banwo",
