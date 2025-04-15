@@ -1,71 +1,88 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import { JobData } from "./jobData";
 
-
-
-
 const Job = () => {
-
-  const id = 1
-  
   return (
-    <>
-      <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
-        
-      <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-        {JobData?.map((job, index)=>
-          <div key={index}>
-        <Link
-          href={`/jobpage/jobdetails/${job.id}`}
-          className="relative block  w-full"
-        >
-          <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-green-700 px-4 py-2 text-sm font-semibold capitalize text-white">
-            Apply
-          </span>
-          {/* <Image src={job.image} alt="image" fill /> */}
-        </Link>
-        <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
-          <h3>
-            <Link
-              href={`/jobpage/jobdetails/${job.id}`}
-              className="mb-4 block text-xl font-bold text-black hover:text-green-300 dark:text-white dark:hover:text-primary sm:text-2xl"
-            >
-              {job.title}
-            </Link>
-          </h3>
-          <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-            {job.paragraph}
+    <section className="bg-gradient-to-b from-blue-50 to-white dark:from-blue-900 dark:to-blue-950 py-16 px-4">
+      <div className="container mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-blue-800 dark:text-blue-100 mb-4">
+            Latest Jobs
+          </h2>
+          <p className="text-xl text-blue-600 dark:text-blue-300 max-w-3xl mx-auto">
+            Explore exciting opportunities in Nigeria
           </p>
-          <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
-              {/* <div className="mr-4">
-                <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <Image src={job.author.image} alt="author" fill />
-                </div>
-              </div> */}
-              <div className="w-full">
-                <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  Posted by : <p className="text-xs text-body-color">{job.author.designation}</p>
-                </h4>
-                
-              </div>
-            </div>
-            <div className="inline-block">
-              <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                Date
-              </h4>
-              <p className="text-xs text-body-color">{job.publishDate}</p>
-            </div>
-          </div>
         </div>
 
-        </div>//End of mapping
-        )}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {JobData?.map((job, index) => (
+            <div 
+              key={index}
+              className="group relative overflow-hidden rounded-xl bg-white dark:bg-blue-800/20 shadow-lg hover:shadow-xl transition-all duration-300 border border-blue-100 dark:border-blue-700/50 hover:border-blue-300 dark:hover:border-blue-500"
+            >
+              <div className="relative h-48 bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center">
+                <span className="absolute right-4 top-4 z-20 inline-flex items-center justify-center rounded-full bg-white px-5 py-2 text-sm font-semibold capitalize text-blue-600 shadow-md hover:bg-blue-50 transition-colors">
+                 <a href={`/jobpage/jobdetails/${job.id}`}> Apply Now</a>
+                </span>
+                {/* Uncomment if you have job images */}
+                {/* <Image 
+                  src={job.image} 
+                  alt="job image" 
+                  fill
+                  className="object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                /> */}
+                <div className="text-white text-2xl font-bold text-center p-4">
+                  {job.title.split(' ')[0]} <span className="text-blue-200">{job.title.split(' ').slice(1).join(' ')}</span>
+                </div>
+              </div>
+
+              <div className="p-6">
+                <h3 className="mb-3">
+                  <Link
+                    href={`/jobpage/jobdetails/${job.id}`}
+                    className="text-xl font-bold text-blue-800 hover:text-blue-600 dark:text-white dark:hover:text-blue-300 transition-colors"
+                  >
+                    {job.title}
+                  </Link>
+                </h3>
+                <p className="mb-6 text-blue-600/90 dark:text-blue-200/80 border-b border-blue-100 dark:border-blue-700/50 pb-6">
+                  {job.paragraph}
+                </p>
+                
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <div className="mr-4 flex-shrink-0">
+                      {/* Uncomment if you have author images */}
+                      {/* <div className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-blue-200">
+                        <Image src={job.author.image} alt="author" fill className="object-cover" />
+                      </div> */}
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-medium text-blue-700 dark:text-blue-100">
+                        Posted by
+                      </h4>
+                      <p className="text-xs text-blue-500 dark:text-blue-300">
+                        {job.author.designation}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="text-right">
+                    <h4 className="text-sm font-medium text-blue-700 dark:text-blue-100">
+                      Posted on
+                    </h4>
+                    <p className="text-xs text-blue-500 dark:text-blue-300">
+                      {job.publishDate}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      </div>
-    </>
+    </section>
   );
 };
 

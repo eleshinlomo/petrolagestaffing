@@ -144,12 +144,12 @@ const SignupPage = () => {
                       </div>
                       <span>
                         By creating account means you agree to the
-                        <a href="#0" className="text-green-500 hover:underline">
+                        <a href="#0" className="text-blue-500 hover:underline">
                           {" "}
                           Terms and Conditions{" "}
                         </a>
                         , and our
-                        <a href="#0" className="text-green-500 hover:underline">
+                        <a href="#0" className="text-blue-500 hover:underline">
                           {" "}
                           Privacy Policy{" "}
                         </a>
@@ -158,14 +158,14 @@ const SignupPage = () => {
                   </div>
                   <div className="mb-6">
                     <button className="shadow-submit dark:shadow-submit-dark flex w-full items-center 
-                    justify-center rounded-sm bg-green-700 px-9 py-4 text-base font-medium text-white duration-300 hover:bg-green-700">
+                    justify-center rounded-sm bg-blue-700 px-9 py-4 text-base font-medium text-white duration-300 hover:bg-blue-700">
                       Sign up
                     </button>
                   </div>
                 </form>
                 <p className="text-center text-base font-medium text-body-color">
                   Already registered?{" "}
-                  <Link href="/signin" className="text-green-500 hover:underline">
+                  <Link href="/signin" className="text-blue-500 hover:underline">
                     Sign in
                   </Link>
                 </p>

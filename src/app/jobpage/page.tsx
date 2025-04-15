@@ -13,12 +13,8 @@ const JobPage = () => {
       id="blog"
       className={`bg-gray-light dark:bg-bg-color-dark  ${path === '/' ? "lg:py-2 py-2 md:py-2" : "lg:py-24 py-24 md:py-24"}`}
     >
-      <div className="container">
-        <SectionTitle
-          title="Latest Jobs"
-          paragraph="See latest opportunities in Nigeria."
-          center
-        />
+      <div className="">
+      
 
         <div className="">
         <Job />
