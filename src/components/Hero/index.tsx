@@ -21,8 +21,8 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <div className="mb-8 inline-block rounded-lg bg-blue-100 px-4 py-3 text-blue-800 shadow-lg transition-all hover:shadow-xl dark:bg-blue-900/30 dark:text-blue-200">
-                  <p className="text-sm font-medium">
+                <div className="mb-8 inline-block rounded-lg bg-re-100 px-4 py-3 text-blue-800 shadow-lg transition-all hover:shadow-xl dark:bg-blue-900/30 dark:text-blue-200">
+                  <p className="text-md font-medium text-red-500">
                     Beginning August 1st, 2025, our staffing process will transition entirely online. 
                     Candidates and clients can manage every step through personalized dashboards.
                   </p>

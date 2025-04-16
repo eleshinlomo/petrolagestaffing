@@ -26,18 +26,18 @@ const Brands = () => {
                   href={brand.href}
                   target="_blank"
                   rel="nofollow noreferrer"
-                  className="relative w-full shadow-2xl h-full opacity-80 transition hover:opacity-100 dark:opacity-80 dark:hover:opacity-100"
+                  className="relative flex justify-center items-center bg-blue-700 rounded-2xl w-full shadow-2xl h-full opacity-80 transition hover:opacity-100 dark:opacity-80 dark:hover:opacity-100"
                 >
                    <p>
                     <span>{brand.name}</span>
                   </p>
-                  {/* <Image 
+                  <Image 
                     src={brand.image} 
                     alt={brand.name} 
                     fill
                     className="object-contain block dark:hidden" 
                     style={{ filter: 'brightness(0) saturate(100%) invert(25%) sepia(99%) saturate(2000%) hue-rotate(210deg) brightness(90%) contrast(90%)' }}
-                  /> */}
+                  />
                  
                   {/* <Image 
                     src={brand.image} 
