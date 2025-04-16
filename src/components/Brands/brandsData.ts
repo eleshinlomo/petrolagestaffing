@@ -13,7 +13,7 @@ export const brandsData: BrandProps[] = [
     id: 6,
     name: "Oando",
     href: "https://www.oandoplc.com/",
-    image: "",
+    image: "/images/logos/oando_logo.jpg",
     imageLight: "",
   },
   {

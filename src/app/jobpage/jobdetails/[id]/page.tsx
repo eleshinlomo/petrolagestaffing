@@ -28,9 +28,11 @@ const JobDetail = ()=>{
           <div>
 
             <div className='relative'>
-              <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold capitalize text-white">
-               {job.tags}
-              </span>
+              <a href={`/jobpage/sortedjobs/${job.tag[0]}`}>
+              <button className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold capitalize text-white">
+               {job.tag}
+              </button>
+              </a>
             </div>
           {/* <Image src={job.image} alt="image" fill /> */}
         

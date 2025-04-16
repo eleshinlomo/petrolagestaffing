@@ -2,7 +2,7 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-gradient-to-b from-blue-50 to-white dark:from-blue-900 dark:to-blue-950 py-20 px-4">
+    <section id="contact" className="bg-gradient-to-b from-blue-50 to-white dark:from-blue-900 dark:to-blue-950 py-32 px-4">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Contact Form */}

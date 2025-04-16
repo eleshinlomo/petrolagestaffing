@@ -25,15 +25,15 @@ const Job = () => {
                 <span className="absolute right-4 top-4 z-20 inline-flex items-center justify-center rounded-full bg-white px-5 py-2 text-sm font-semibold capitalize text-blue-600 shadow-md hover:bg-blue-50 transition-colors">
                  <a href={`/jobpage/jobdetails/${job.id}`}> Apply Now</a>
                 </span>
-                {/* Uncomment if you have job images */}
-                {/* <Image 
-                  src={job.image} 
-                  alt="job image" 
-                  fill
-                  className="object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-                /> */}
+          
+                <div>
                 <div className="text-white text-2xl font-bold text-center p-4">
                   {job.title.split(' ')[0]} <span className="text-blue-200">{job.title.split(' ').slice(1).join(' ')}</span>
+                </div>
+
+                <div className="text-white text-md font-bold text-center ">
+                  Location: {job.location.split(' ')[0]} <span className="text-blue-200">{job.location.split(' ').slice(1).join(' ')}</span>
+                </div>
                 </div>
               </div>
 
@@ -52,12 +52,7 @@ const Job = () => {
                 
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <div className="mr-4 flex-shrink-0">
-                      {/* Uncomment if you have author images */}
-                      {/* <div className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-blue-200">
-                        <Image src={job.author.image} alt="author" fill className="object-cover" />
-                      </div> */}
-                    </div>
+            
                     <div>
                       <h4 className="text-sm font-medium text-blue-700 dark:text-blue-100">
                         Posted by
